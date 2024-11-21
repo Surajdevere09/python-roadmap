@@ -24,3 +24,13 @@ fruits = ["Orange","Banana", "Cherry"]
 
 x,y,z =fruits
 print(x,y,z)
+
+
+# global variable with global keyword
+
+def  myFunc():
+   global x
+   x = "fantastic"
+    
+
+print(x)
